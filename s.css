@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul{
+    display: flex;
+   justify-content:end;
+  gap: 1rem;
+    background-color: #1f2937;
+    position: relative;
+    top: -40px;
+list-style: none;
+text-decoration: none;
+}
+a{
+      font-size: 18px;
+    color: #E5E7EB;
+text-decoration: none;
+}
+nav .logo{
+margin-right: auto;
+}
+.hero{
+    background-color: #1f2937;
+padding: 50px;
+}
+.hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.ph{
+    max-width: 400px ;
+    margin-right: 50px;
+}
+.hero,.headpa{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.dis{
+    display: flex;
+    flex-direction: row;
+    margin: 50px
+}
+
+.signup{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4px;
+    color:#E5E7EB;
+    width: 80px;
+}
+.holder{
+    width: 400px;
+    height: 200px;
+    border: 1px solid ;
+   
+background-color: gray;
+}
+.holder p{
+    margin: 90px;
+}
+.rand{
+    text-align: center;
+    
+   width: 700px;
+margin: auto;
+}
+.rand h2{
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+.boxes{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}.first-box,.second-box,.third-box,.forth-box{
+    width: 100px;
+    
+}
+.rand p{
+position: relative;
+left:35px;
+   
+align-items: center;
+}
+.one-box,.two-box,.three-box,.four-box{
+        border:5px solid #3882F6;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    width: 10em;
+    height: 12em;
+    text-align: center;
+}
+.quote{
+    background-color: gainsboro;
+    padding: 100px;
+    text-align: center;
+    
+}
+.quote-pa{
+    font-style: italic;
+}
+.author{
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.rim{
+background-color: #3882F6;
+color:#E5E7EB;
+margin: 100px;
+
+padding: 50px;
+display:flex;
+flex-direction: row;
+}
+.call-txt{
+    
+display:flex;
+flex-direction: column;
+}
+.rim,.btn{
+margin-left: 200px;
+}
+.btn{
+    border:transparent ;
+    position: relative;
+    top: 35px;
+    justify-content: end;
+}
+.signup1{
+        background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4px;
+    color:#E5E7EB;
+    width: 100px;
+    border: 1px solid #E5E7EB;
+}
+.foot{
+    background-color: #1f2937;
+    padding: 30px;
+     color: #F9FAF8;
+     text-align: center;
+}
